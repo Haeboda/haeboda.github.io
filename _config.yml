@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "Haeboda's blog"
 title_separator          : "|"
-subtitle                 : "취미가 개발.." # site tagline that appears below site title in masthead
+subtitle                 : "취미가 개발이고 싶은 사람입니다." # site tagline that appears below site title in masthead
 name                     : "해보다"
 description              : "해보다의 블로그입니다"
 url                      : "https://haeboda.github.io"
@@ -96,10 +96,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-VTYZVMLJ59"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
