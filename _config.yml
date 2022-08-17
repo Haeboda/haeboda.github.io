@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Haeboda's blog"
+title                    : "해보다밝은별의 두뇌 복사실"
 title_separator          : "|"
 subtitle                 : "취미가 개발이고 싶은 사람" # site tagline that appears below site title in masthead
-name                     : "해보다"
-description              : "해보다의 블로그입니다"
+name                     : "해보다밝은별"
+description              : "반갑습니다 (/'-')/"
 url                      : "https://haeboda.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : Haeboda/haeboda.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "해보다"
+  name             : "해보다밝은별"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "해보다의 블로그입니다"
-  location         : "South Korea"
+  bio              : "반갑습니다 (/'-')/~"
+  location         : #"South Korea"
   email            :
   links:
     - label: "Email"
@@ -217,7 +217,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: :categories/:title/ # :categories/:title/ (default)
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -250,24 +250,61 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
+# category_archive:
+#   type: liquid
+#   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+project_archive:
+  type: liquid
+  path: /project/ 
+quadcopter_archive:
+  type: liquid
+  path: /project/quadcopter/
+blog_archive:
+  type: liquid
+  path: /project/blog/
+cs_archive:
+  type: liquid
+  path: /cs/
+c_archive:
+  type: liquid
+  path: /cs/c/
+python_archive:
+  type: liquid
+  path: /cs/python/
+algorithm_archive:
+  type: liquid
+  path: /cs/algorithm/
+mcu_archive:
+  type: liquid
+  path: /cs/mcu/
+rtos_archive:
+  type: liquid
+  path: /cs/rtos/
+linux_archive:
+  type: liquid
+  path: /cs/linux/
+coding_archive:
+  type: liquid
+  path: /coding/
+programmers_archive:
+  type: liquid
+  path: /coding/programmers
+
+
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-    - categories
+    # - categories
     - tags
   layouts:
-    category: archive-taxonomy
+    # category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
+    # category: /categories/:name/
     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
