@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "해보다밝은별의 두뇌 복사실"
+title                    : "해보다밝은별의 두뇌 복사실" 
 title_separator          : "|"
-subtitle                 : "취미가 개발이고 싶은 사람" # site tagline that appears below site title in masthead
+subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "해보다밝은별"
-description              : "반갑습니다 (/'-')/"
+description              : ""
 url                      : "https://haeboda.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : Haeboda/haeboda.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "해보다밝은별"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "반갑습니다 (/'-')/~"
+  bio              : "취미가 개발이고 싶은 사람"
   location         : #"South Korea"
   email            :
   links:
